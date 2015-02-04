@@ -1,0 +1,30 @@
+{
+  "name": "machinepack-cache",
+  "version": "0.1.0",
+  "description": "Use or interact with either a memory or redis cache",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha -b"
+  },
+  "keywords": [
+    "Cache",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cache-manager": "^0.16.0",
+    "lodash": "^3.1.0",
+    "machine": "^2.0.0",
+    "redis": "^0.12.1",
+    "sol-redis-pool": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "machinepack": {
+    "friendlyName": "Cache",
+    "machineDir": "machines/",
+    "machines": []
+  }
+}
